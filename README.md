@@ -5,5 +5,5 @@ This javascript based app allows you to backup all your playlists and import the
 
 In consequence, no credentials or data is stored or processed on the Webserver itself.
 
-You can use it at [owenmoogk.github.io/SpotMyBackup](https://owenmoogk.github.io/SpotMyBackup) or on your own webserver (see Q&A).
+You can use it at [owenmoogk.github.io/spot-my-backup](https://owenmoogk.github.io/spot-my-backup) or on your own webserver (see Q&A).
 
