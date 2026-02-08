@@ -184,8 +184,17 @@
 
 
 var conf = config;
+var origin = window.location.origin;
+var path = window.location.pathname;
+var basePath = path.replace(/\/[^\/]*$/, '/');
+if (!basePath.endsWith('/')) {
+    basePath += '/';
+}
 if (!conf.uri) {
-    conf.uri = window.location.origin;
+    conf.uri = origin;
+}
+if (!conf.redirect_uri) {
+    conf.redirect_uri = origin + basePath + 'login.html';
 }
 
 var authWindow = null;
